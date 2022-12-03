@@ -1,0 +1,638 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F1EB8FC3293B1DEB00C3D084 /* CalcoolApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EB8FC2293B1DEB00C3D084 /* CalcoolApp.swift */; };
+		F1EB8FC5293B1DEB00C3D084 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EB8FC4293B1DEB00C3D084 /* Persistence.swift */; };
+		F1EB8FC8293B1DEB00C3D084 /* Calcool.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F1EB8FC6293B1DEB00C3D084 /* Calcool.xcdatamodeld */; };
+		F1EB8FCA293B1DEB00C3D084 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EB8FC9293B1DEB00C3D084 /* ContentView.swift */; };
+		F1EB8FCC293B1DED00C3D084 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1EB8FCB293B1DED00C3D084 /* Assets.xcassets */; };
+		F1EB8FD0293B1DED00C3D084 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1EB8FCF293B1DED00C3D084 /* Preview Assets.xcassets */; };
+		F1EB8FDA293B1DED00C3D084 /* CalcoolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EB8FD9293B1DED00C3D084 /* CalcoolTests.swift */; };
+		F1EB8FE4293B1DED00C3D084 /* CalcoolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EB8FE3293B1DED00C3D084 /* CalcoolUITests.swift */; };
+		F1EB8FE6293B1DED00C3D084 /* CalcoolUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EB8FE5293B1DED00C3D084 /* CalcoolUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F1EB8FD6293B1DED00C3D084 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1EB8FB7293B1DEB00C3D084 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1EB8FBE293B1DEB00C3D084;
+			remoteInfo = Calcool;
+		};
+		F1EB8FE0293B1DED00C3D084 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1EB8FB7293B1DEB00C3D084 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1EB8FBE293B1DEB00C3D084;
+			remoteInfo = Calcool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F1EB8FBF293B1DEB00C3D084 /* Calcool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calcool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1EB8FC2293B1DEB00C3D084 /* CalcoolApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcoolApp.swift; sourceTree = "<group>"; };
+		F1EB8FC4293B1DEB00C3D084 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		F1EB8FC7293B1DEB00C3D084 /* Calcool.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Calcool.xcdatamodel; sourceTree = "<group>"; };
+		F1EB8FC9293B1DEB00C3D084 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F1EB8FCB293B1DED00C3D084 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F1EB8FCD293B1DED00C3D084 /* Calcool.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Calcool.entitlements; sourceTree = "<group>"; };
+		F1EB8FCF293B1DED00C3D084 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F1EB8FD5293B1DED00C3D084 /* CalcoolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalcoolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1EB8FD9293B1DED00C3D084 /* CalcoolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcoolTests.swift; sourceTree = "<group>"; };
+		F1EB8FDF293B1DED00C3D084 /* CalcoolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalcoolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1EB8FE3293B1DED00C3D084 /* CalcoolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcoolUITests.swift; sourceTree = "<group>"; };
+		F1EB8FE5293B1DED00C3D084 /* CalcoolUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcoolUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1EB8FBC293B1DEB00C3D084 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1EB8FD2293B1DED00C3D084 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1EB8FDC293B1DED00C3D084 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F1EB8FB6293B1DEB00C3D084 = {
+			isa = PBXGroup;
+			children = (
+				F1EB8FC1293B1DEB00C3D084 /* Calcool */,
+				F1EB8FD8293B1DED00C3D084 /* CalcoolTests */,
+				F1EB8FE2293B1DED00C3D084 /* CalcoolUITests */,
+				F1EB8FC0293B1DEB00C3D084 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F1EB8FC0293B1DEB00C3D084 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1EB8FBF293B1DEB00C3D084 /* Calcool.app */,
+				F1EB8FD5293B1DED00C3D084 /* CalcoolTests.xctest */,
+				F1EB8FDF293B1DED00C3D084 /* CalcoolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1EB8FC1293B1DEB00C3D084 /* Calcool */ = {
+			isa = PBXGroup;
+			children = (
+				F1EB8FC2293B1DEB00C3D084 /* CalcoolApp.swift */,
+				F1EB8FC4293B1DEB00C3D084 /* Persistence.swift */,
+				F1EB8FC9293B1DEB00C3D084 /* ContentView.swift */,
+				F1EB8FCB293B1DED00C3D084 /* Assets.xcassets */,
+				F1EB8FCD293B1DED00C3D084 /* Calcool.entitlements */,
+				F1EB8FC6293B1DEB00C3D084 /* Calcool.xcdatamodeld */,
+				F1EB8FCE293B1DED00C3D084 /* Preview Content */,
+			);
+			path = Calcool;
+			sourceTree = "<group>";
+		};
+		F1EB8FCE293B1DED00C3D084 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F1EB8FCF293B1DED00C3D084 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F1EB8FD8293B1DED00C3D084 /* CalcoolTests */ = {
+			isa = PBXGroup;
+			children = (
+				F1EB8FD9293B1DED00C3D084 /* CalcoolTests.swift */,
+			);
+			path = CalcoolTests;
+			sourceTree = "<group>";
+		};
+		F1EB8FE2293B1DED00C3D084 /* CalcoolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F1EB8FE3293B1DED00C3D084 /* CalcoolUITests.swift */,
+				F1EB8FE5293B1DED00C3D084 /* CalcoolUITestsLaunchTests.swift */,
+			);
+			path = CalcoolUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1EB8FBE293B1DEB00C3D084 /* Calcool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1EB8FE9293B1DED00C3D084 /* Build configuration list for PBXNativeTarget "Calcool" */;
+			buildPhases = (
+				F1EB8FBB293B1DEB00C3D084 /* Sources */,
+				F1EB8FBC293B1DEB00C3D084 /* Frameworks */,
+				F1EB8FBD293B1DEB00C3D084 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Calcool;
+			productName = Calcool;
+			productReference = F1EB8FBF293B1DEB00C3D084 /* Calcool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F1EB8FD4293B1DED00C3D084 /* CalcoolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1EB8FEC293B1DED00C3D084 /* Build configuration list for PBXNativeTarget "CalcoolTests" */;
+			buildPhases = (
+				F1EB8FD1293B1DED00C3D084 /* Sources */,
+				F1EB8FD2293B1DED00C3D084 /* Frameworks */,
+				F1EB8FD3293B1DED00C3D084 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1EB8FD7293B1DED00C3D084 /* PBXTargetDependency */,
+			);
+			name = CalcoolTests;
+			productName = CalcoolTests;
+			productReference = F1EB8FD5293B1DED00C3D084 /* CalcoolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F1EB8FDE293B1DED00C3D084 /* CalcoolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1EB8FEF293B1DED00C3D084 /* Build configuration list for PBXNativeTarget "CalcoolUITests" */;
+			buildPhases = (
+				F1EB8FDB293B1DED00C3D084 /* Sources */,
+				F1EB8FDC293B1DED00C3D084 /* Frameworks */,
+				F1EB8FDD293B1DED00C3D084 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1EB8FE1293B1DED00C3D084 /* PBXTargetDependency */,
+			);
+			name = CalcoolUITests;
+			productName = CalcoolUITests;
+			productReference = F1EB8FDF293B1DED00C3D084 /* CalcoolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1EB8FB7293B1DEB00C3D084 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					F1EB8FBE293B1DEB00C3D084 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					F1EB8FD4293B1DED00C3D084 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = F1EB8FBE293B1DEB00C3D084;
+					};
+					F1EB8FDE293B1DED00C3D084 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = F1EB8FBE293B1DEB00C3D084;
+					};
+				};
+			};
+			buildConfigurationList = F1EB8FBA293B1DEB00C3D084 /* Build configuration list for PBXProject "Calcool" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1EB8FB6293B1DEB00C3D084;
+			productRefGroup = F1EB8FC0293B1DEB00C3D084 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1EB8FBE293B1DEB00C3D084 /* Calcool */,
+				F1EB8FD4293B1DED00C3D084 /* CalcoolTests */,
+				F1EB8FDE293B1DED00C3D084 /* CalcoolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1EB8FBD293B1DEB00C3D084 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1EB8FD0293B1DED00C3D084 /* Preview Assets.xcassets in Resources */,
+				F1EB8FCC293B1DED00C3D084 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1EB8FD3293B1DED00C3D084 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1EB8FDD293B1DED00C3D084 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1EB8FBB293B1DEB00C3D084 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1EB8FC8293B1DEB00C3D084 /* Calcool.xcdatamodeld in Sources */,
+				F1EB8FC3293B1DEB00C3D084 /* CalcoolApp.swift in Sources */,
+				F1EB8FCA293B1DEB00C3D084 /* ContentView.swift in Sources */,
+				F1EB8FC5293B1DEB00C3D084 /* Persistence.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1EB8FD1293B1DED00C3D084 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1EB8FDA293B1DED00C3D084 /* CalcoolTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1EB8FDB293B1DED00C3D084 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1EB8FE6293B1DED00C3D084 /* CalcoolUITestsLaunchTests.swift in Sources */,
+				F1EB8FE4293B1DED00C3D084 /* CalcoolUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F1EB8FD7293B1DED00C3D084 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1EB8FBE293B1DEB00C3D084 /* Calcool */;
+			targetProxy = F1EB8FD6293B1DED00C3D084 /* PBXContainerItemProxy */;
+		};
+		F1EB8FE1293B1DED00C3D084 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1EB8FBE293B1DEB00C3D084 /* Calcool */;
+			targetProxy = F1EB8FE0293B1DED00C3D084 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F1EB8FE7293B1DED00C3D084 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F1EB8FE8293B1DED00C3D084 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		F1EB8FEA293B1DED00C3D084 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Calcool/Calcool.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Calcool/Preview Content\"";
+				DEVELOPMENT_TEAM = 4YP7SQBLYV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kantacky.Calcool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F1EB8FEB293B1DED00C3D084 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Calcool/Calcool.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Calcool/Preview Content\"";
+				DEVELOPMENT_TEAM = 4YP7SQBLYV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kantacky.Calcool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F1EB8FED293B1DED00C3D084 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4YP7SQBLYV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kantacky.CalcoolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Calcool.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Calcool";
+			};
+			name = Debug;
+		};
+		F1EB8FEE293B1DED00C3D084 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4YP7SQBLYV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kantacky.CalcoolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Calcool.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Calcool";
+			};
+			name = Release;
+		};
+		F1EB8FF0293B1DED00C3D084 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4YP7SQBLYV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kantacky.CalcoolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Calcool;
+			};
+			name = Debug;
+		};
+		F1EB8FF1293B1DED00C3D084 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4YP7SQBLYV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kantacky.CalcoolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Calcool;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1EB8FBA293B1DEB00C3D084 /* Build configuration list for PBXProject "Calcool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1EB8FE7293B1DED00C3D084 /* Debug */,
+				F1EB8FE8293B1DED00C3D084 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1EB8FE9293B1DED00C3D084 /* Build configuration list for PBXNativeTarget "Calcool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1EB8FEA293B1DED00C3D084 /* Debug */,
+				F1EB8FEB293B1DED00C3D084 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1EB8FEC293B1DED00C3D084 /* Build configuration list for PBXNativeTarget "CalcoolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1EB8FED293B1DED00C3D084 /* Debug */,
+				F1EB8FEE293B1DED00C3D084 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1EB8FEF293B1DED00C3D084 /* Build configuration list for PBXNativeTarget "CalcoolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1EB8FF0293B1DED00C3D084 /* Debug */,
+				F1EB8FF1293B1DED00C3D084 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F1EB8FC6293B1DEB00C3D084 /* Calcool.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F1EB8FC7293B1DEB00C3D084 /* Calcool.xcdatamodel */,
+			);
+			currentVersion = F1EB8FC7293B1DEB00C3D084 /* Calcool.xcdatamodel */;
+			path = Calcool.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F1EB8FB7293B1DEB00C3D084 /* Project object */;
+}
